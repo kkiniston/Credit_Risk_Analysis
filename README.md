@@ -11,4 +11,4 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 - 3: Use Ensemble Classifiers to Predict Credit Risk
 - 4: A Written Report on the Credit Risk Analysis (README.md)
 
-##Summary and Analysis of Results
+## Summary and Analysis of Results
