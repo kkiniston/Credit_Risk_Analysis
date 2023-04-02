@@ -12,3 +12,11 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 - 4: A Written Report on the Credit Risk Analysis (README.md)
 
 ## Summary and Analysis of Results
+
+### Undersampling 
+
+### SMOTE 
+
+### Oversampling 
+
+### Summary 
