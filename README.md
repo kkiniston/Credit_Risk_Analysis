@@ -12,11 +12,28 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 - 4: A Written Report on the Credit Risk Analysis (README.md)
 
 ## Summary and Analysis of Results
+![Screenshot 2023-04-02 014031](https://user-images.githubusercontent.com/115853964/229339467-e8f314a0-57dc-4eab-b7b4-4d2f15784c31.png)
 
 ### Undersampling 
+![Screenshot 2023-04-02 014446](https://user-images.githubusercontent.com/115853964/229339646-e15bff0b-e816-4f66-9391-935784d39756.png)
+
+The accuracy score resulted in[0.5443043836656818] **545% score**
+
 
 ### SMOTE 
+![Screenshot 2023-04-02 014403](https://user-images.githubusercontent.com/115853964/229339605-75fc774a-e6c9-4bba-b93b-e89c27bab5aa.png)
+
+The accuracy score resulted in[0.662394124702461] **66% score**
 
 ### Oversampling 
+![Screenshot 2023-04-02 014310](https://user-images.githubusercontent.com/115853964/229339574-969f237b-a3c3-472d-b180-e95afdd9884b.png)
 
-### Summary 
+The accuracy score resulted in[0.646602844334948] **66% score**
+
+### Combination 
+![Screenshot 2023-04-02 014547](https://user-images.githubusercontent.com/115853964/229339679-a62b5fa6-7622-473f-9cde-837c17bc7dee.png)
+
+The accuracy score resulted in[0.6400726134353378] **64% score**
+
+
+
