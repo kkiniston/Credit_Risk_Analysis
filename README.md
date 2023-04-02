@@ -17,23 +17,30 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 ### Undersampling 
 ![Screenshot 2023-04-02 014446](https://user-images.githubusercontent.com/115853964/229339646-e15bff0b-e816-4f66-9391-935784d39756.png)
 
-The accuracy score resulted in[0.5443043836656818] **545% score**
-
+The accuracy score resulted in[0.5443043836656818] **54% score**
+-**high_risk:** 0.01
+-**low_risk:** 1.00
 
 ### SMOTE 
 ![Screenshot 2023-04-02 014403](https://user-images.githubusercontent.com/115853964/229339605-75fc774a-e6c9-4bba-b93b-e89c27bab5aa.png)
 
 The accuracy score resulted in[0.662394124702461] **66% score**
+-**high_risk:** 0.01
+-**low_risk:** 1.00
 
 ### Oversampling 
 ![Screenshot 2023-04-02 014310](https://user-images.githubusercontent.com/115853964/229339574-969f237b-a3c3-472d-b180-e95afdd9884b.png)
 
-The accuracy score resulted in[0.646602844334948] **66% score**
+The accuracy score resulted in[0.646602844334948] **65% score**
+-**high_risk:** 0.01
+-**low_risk:** 1.00
 
 ### Combination 
 ![Screenshot 2023-04-02 014547](https://user-images.githubusercontent.com/115853964/229339679-a62b5fa6-7622-473f-9cde-837c17bc7dee.png)
 
 The accuracy score resulted in[0.6400726134353378] **64% score**
+-**high_risk:** 0.01
+-**low_risk:** 1.00
 
-
-
+## Writen Summary 
+The recall mesurment varied within an 11% range between algorithms; oversampling, predictably, resulting in a higher rating 74% score identifying those high_risk customers. The precision mesurment was consistnat accross all algorithms. The SMOTE algorithm resulted in the highest accuracy score, predicting 66% of the high-risk classifications, while an undersampling algorithm resulted in a lower score of 54% with is predicatble differencial based on the data. 
